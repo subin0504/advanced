@@ -14,6 +14,7 @@ public class OrderServiceV2 {
 
     private final OrderRepositoryV2 orderRepository;
     private final HelloTraceV2 trace;
+    private String b;
 
     public void orderItem(TraceId traceId, String itemId) {
         TraceStatus status = null;
