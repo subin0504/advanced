@@ -3,7 +3,7 @@ public class TraceStatus {
     private TraceId traceId;
     private Long startTimeMs;
     private String message;
-    private String d;
+    private String dd;
     public TraceStatus(TraceId traceId, Long startTimeMs, String message) {
         this.traceId = traceId;
         this.startTimeMs = startTimeMs;
